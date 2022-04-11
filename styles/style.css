@@ -64,6 +64,16 @@ nav {
 
 }
 
+header {
+ position: relative;
+}
+.hero-image {
+    position: absolute;
+    right: -150px;
+    top: 60%;
+    transform: translate(-50%);
+}
+
 header .logo {
     margin-right: 20px;
 
@@ -97,6 +107,8 @@ header li:nth-child(3) {
 
 .hero {
     width: 50%;
+    margin: 150px;
+    margin-bottom: 100px ;
 }
 
 .hero h1 {
@@ -108,4 +120,11 @@ header li:nth-child(3) {
 
 .hero p {
     margin-bottom: 30px;
+}
+
+.input-section .content-wrapper {
+    background-color: var(--dark-violet);
+    background-image: url(../images/bg-shorten-desktop.svg);
+    padding: 30px;
+    display: flex;
 }
